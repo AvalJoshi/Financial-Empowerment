@@ -22,6 +22,8 @@ get_header();
 
 manbir i am just check first time git .
 
+hi manbir 
+
 
 
 
@@ -48,7 +50,7 @@ manbir i am just check first time git .
                                     <?php get_field('eligible_desc') ?>
                                 </p>
                             </div>
-                            <div id="menu1" class="tab-pane fade">
+                            <div id="menu1 more" class="tab-pane fade">
                                 <h3><?php get_field ( 'h3_receipts')?></h3>
                                 <p>
                                     <?php get_field('receipts_desc') ?>
