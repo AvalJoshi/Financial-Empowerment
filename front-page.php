@@ -107,7 +107,7 @@ get_header();
 
                 <div class="beVolunteer">
                     <div class="howToBecomeAVolunteer">
-                        <h3>How to become a volunteer</h3>
+                        <h3>How to become a Volunteer!</h3>
 
                         <p>
                             It’s never too late to file your income tax return! By filing you may be eligible for many benefits! It’s never too late to file your income tax return! By filing you may be eligible for many benefits! It’s never too late to file your income tax return! By filing you may be eligible for many benefits! By filing you may be eligible for many benefits!
