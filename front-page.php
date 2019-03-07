@@ -19,16 +19,6 @@ get_header();
         <main id="main" class="site-main">
 
 
-
-manbir i am just check first time git .
-
-hi manbir 
-
-
-
-
-
-
             <section id="howDoIqualify">
                 <h2> <?php get_field('home_page_header_text')?></h2>
 
@@ -84,21 +74,7 @@ hi manbir
 
                                 <a href="https://www.jetzt-drucken-lassen.de"></a>
                         </div>
-                        <style>
-                            .mapouter {
-                                text-align: right;
-                                height: 739px;
-                                width: 1225px;
-                            }
-                            
-                            .gmap_canvas {
-                                overflow: hidden;
-                                background: none!important;
-                                height: 799px;
-                                width: 1225px;
-                            }
-                        </style>
-                        <a href="https://www.embedgooglemap.net" rel="nofollow" target="_blank"></a>
+                        
                     </div>
 
                 </div>
