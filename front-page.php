@@ -18,17 +18,6 @@ get_header();
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
 
-
-
-manbir i am just check first time git .
-
-hi manbir 
-
-
-
-
-
-
             <section id="howDoIqualify">
                 <h2> <?php get_field('home_page_header_text')?></h2>
 
