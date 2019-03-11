@@ -22,7 +22,7 @@ get_header();
 <<<<<<< HEAD
 =======
 
->>>>>>> master
+<!-- >>>>>>> master
             <section id="howDoIqualify">
                 <h2> <?php the_field('home_page_header_text')?></h2>
 
@@ -118,7 +118,7 @@ get_header();
                 <div class="financialEmpowermentDetails">
 
                     <h3>
-=======
+======= -->
 <div id="primary" class="content-area">
 		<main id="main" class="site-main">
         
