@@ -285,7 +285,7 @@ border-radius: 0px!important;
 }
 #locations {
     background: #efefef;
-    height: 915px;
+    height: auto;
     text-align: center;
     color: black;
     font-size: 40px;
@@ -297,7 +297,7 @@ border-radius: 0px!important;
 
 #beAvolunteer {
     background: #D3D3D3;
-    height: 810px;
+    height: auto;
     text-align: center;
     color: black;
     font-size: 40px;
