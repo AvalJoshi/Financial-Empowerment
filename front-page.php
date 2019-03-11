@@ -121,29 +121,11 @@ get_header();
 =======
 <div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+        
             
 
 		<section id="howDoIqualify">
-			<h2> <?php the_field('home_page_header_text')?></h2>
+			<h2> <?php get_field('home_page_header_text')?></h2>
 
 			<div class="qualifyDetails">
                 
@@ -158,16 +140,16 @@ get_header();
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <h3><?php the_field ( 'h3_eligible')?></h3>
-      <p>	<?php the_field('eligible_desc') ?></p>
+      <h3><?php get_field ( 'h3_eligible')?></h3>
+      <p>	<?php get_field('eligible_desc') ?></p>
     </div>
     <div id="menu1" class="tab-pane fade">
-      <h3><?php the_field ( 'h3_receipts')?></h3>
-      <p>	<?php the_field('receipts_desc') ?></p>
+      <h3><?php get_field ( 'h3_receipts')?></h3>
+      <p>	<?php get_field('receipts_desc') ?></p>
     </div>
     <div id="menu2" class="tab-pane fade">
-          <h3><?php the_field ( 'h3_nformation_Slips')?></h3>
-      <p>	<?php the_field('information_slips_desc') ?></p>
+          <h3><?php get_field ( 'h3_nformation_Slips')?></h3>
+      <p>	<?php get_field('information_slips_desc') ?></p>
     </div>
   </div>
 </div> 
@@ -181,13 +163,13 @@ get_header();
 		</section>
 
 		<section id="locations">
-			<h2>  <?php the_field('locations_header')?></h2>
+			<h2>  <?php get_field('locations_header')?></h2>
 
 			<div class="map">
 
 			<div class="mapouter">
 				<div class="gmap_canvas">
-				<?php the_field('location_area')?>
+				<?php get_field('location_area')?>
 					
 					<a href="https://www.jetzt-drucken-lassen.de"></a>
 				</div>
@@ -204,12 +186,12 @@ get_header();
 				<div class="howToBecomeAVolunteer">
 					<h3>How to become a volunteer</h3>
 
-					<p>
+					<!--<p>
 					It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! By filing you may be eligible for many benefits!
-					</p>
+					</p>-->
 				</div>	
 
 				<div class="volunteerVideo">
