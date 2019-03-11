@@ -17,25 +17,7 @@ get_header();
 
 <div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+        
             
 
 		<section id="howDoIqualify">
@@ -100,12 +82,12 @@ get_header();
 				<div class="howToBecomeAVolunteer">
 					<h3>How to become a volunteer</h3>
 
-					<p>
+					<!--<p>
 					It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
 					many benefits! By filing you may be eligible for many benefits!
-					</p>
+					</p>-->
 				</div>	
 
 				<div class="volunteerVideo">
