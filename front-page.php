@@ -8,7 +8,7 @@
  * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
+ *checking 
  * @package financial_empowerment
  */
 
