@@ -6,6 +6,7 @@
 body{
 
     background-color: #efefef;
+    overflow-x: hidden; 
 }
 #masthead {
     background-image: url(../img/home.jpg);
