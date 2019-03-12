@@ -33,7 +33,12 @@
 	<div id="logo_mian">
 
 	<div class="site-branding">
-			<?php
+			 <?php
+			// if (has_custom_logo()){
+			// the_custom_logo();
+			// }else{
+			// 	echo'No Logo';
+			// }
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
