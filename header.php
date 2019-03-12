@@ -85,6 +85,7 @@
 
 <div class="arrow_main">
 <div class="arrow bounce">
+<!-- arrow link to go down -->
   <a class="fa fa-chevron-down fa-2x" href="#howDoIqualify"></a>
 </div>
 
