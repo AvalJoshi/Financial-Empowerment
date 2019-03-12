@@ -142,15 +142,22 @@ get_header();
 
 		</section>
 
-		<section id="testimonials">
+		<section id="testimonials" >
 			<h2> Testimonials </h2>
 
 			<div class="testimonialsDetails">
 
-			</div>		
-			
-		</section>
+            </div>	
+         
 		
+		</section>
+	<section id="contact-us">
+<h2>Contact Us </h2>
+<?php the_field('contact_us') ?>
+
+
+
+                </section>
 
 		</main>
 	</div>
