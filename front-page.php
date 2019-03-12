@@ -156,8 +156,11 @@ get_header();
 
 		<section id="contact-us">
 				<h2>Contact Us </h2>
+
+				<div class="contactUs">
 				<?php $contact_us =  get_field('contact_us');?>
 				<?php echo $contact_us; ?>
+				</div>
 		</section>
 
 		</main>
