@@ -28,6 +28,10 @@ body{
 }
 
 
+#mysticky-nav.wrapfixed{
+    margin-top: -31px !important;
+}
+
 
 #howDoIqualify  .nav > li > a {
     position: relative;
@@ -279,7 +283,6 @@ border-radius: 0px!important;
 
 }
 #contact-us{
-
     float: left;
     width: 100%;
     background-color: #000;
