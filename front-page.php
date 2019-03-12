@@ -27,7 +27,8 @@ get_header();
             
 
 		<section id="howDoIqualify">
-			<h2> <?php the_field('home_page_header_text');?></h2>
+		<?php $header_howDoIqualigy =  get_field('home_page_header_text');?>
+			<h2><?php echo $header_howDoIqualigy; ?></h2>
 
 			<div class="qualifyDetails">
                 
@@ -42,16 +43,22 @@ get_header();
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <h3><?php the_field ( 'h3_eligible');?></h3>
-      <p>	<?php the_field('eligible_desc');?></p>
+		<?php $h3_iAmeligible =  get_field('h3_eligible');?>
+      <h3><?php echo $h3_iAmeligible; ?></h3>
+		<?php $iAmeligible_desc =  get_field('eligible_desc');?>	
+      <p><?php echo $iAmeligible_desc; ?></p>
     </div>
     <div id="menu1" class="tab-pane fade">
-      <h3><?php the_field ( 'h3_receipts');?></h3>
-      <p>	<?php the_field('receipts_desc');?></p>
+		<?php $h3_receipts =  get_field('h3_receipts');?>	
+      <h3><?php echo $h3_receipts; ?></h3>
+			<?php $receipts_desc =  get_field('receipts_desc');?>		
+      <p><?php echo $receipts_desc; ?></p>
     </div>
     <div id="menu2" class="tab-pane fade">
-          <h3><?php the_field ( 'h3_information_Slips');?></h3>
-      <p>	<?php the_field('information_slips_desc');?></p>
+		<?php $h3_information_Slips =  get_field('h3_information_Slips');?>
+          <h3><?php echo $h3_information_Slips; ?></h3>
+					<?php $information_slips_desc =  get_field('information_slips_desc');?>			
+      <p><?php echo $information_slips_desc; ?></p>
     </div>
   </div>
 </div>
@@ -60,14 +67,15 @@ get_header();
 		</section>
 
 		<section id="locations">
-			<h2>  <?php the_field('locations_header');?></h2>
+		<?php $locations_header =  get_field('locations_header');?>
+			<h2><?php echo $locations_header; ?></h2>
 
 			<div class="map">
 
 			<div class="mapouter">
 				<div class="gmap_canvas">
-				<?php the_field('location_area');?>
-					
+				<?php $location_area =  get_field('location_area');?>
+				<?php echo $location_area; ?>
 					<a href="https://www.jetzt-drucken-lassen.de"></a>
 				</div>
 				<style>.mapouter{text-align:right;height:739px;width:1225px;}.gmap_canvas {overflow:hidden;background:none!important;height:799px;width:1225px;}</style><a href="https://www.embedgooglemap.net" rel="nofollow" target="_blank"></a>
@@ -143,20 +151,14 @@ get_header();
 
 		<section id="testimonials" >
 			<h2> Testimonials </h2>
-
-			<div class="testimonialsDetails">
-
-            </div>	
-         
-		
+			<div class="testimonialsDetails"></div>	
 		</section>
-	<section id="contact-us">
-<h2>Contact Us </h2>
-<?php the_field('contact_us') ?>
 
-
-
-                </section>
+		<section id="contact-us">
+				<h2>Contact Us </h2>
+				<?php $contact_us =  get_field('contact_us');?>
+				<?php echo $contact_us; ?>
+		</section>
 
 		</main>
 	</div>
