@@ -77,32 +77,26 @@ get_header();
 		</section>
 
 		<section id="beAvolunteer">
-			<h2> Be a Volunteer </h2>
+			<h2> <?php the_field('be_a_volunteer_header')?></h2>
 
 			<div class="beVolunteer">
 				<div class="howToBecomeAVolunteer">
-					<h3>How to become a volunteer</h3>
+					<h3><?php the_field('h3_volunteer')?></h3>
 
 					<p>
-					It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! By filing you may be eligible for many benefits!
+					<?php the_field('volunteer_desc')?>
 					</p>
 				</div>	
 
 				<div class="volunteerVideo">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/-RjHEhK6p1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
 				</div>
 
 				<div class="howTorunTaxClinic">
-					<h3>How to run a tax clinic</h3>
+					<h3><?php the_field('h3_tax_clinic')?></h3>
 
 					<p>
-					It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! It’s never too late to file your income tax return! By filing you may be eligible for
-					many benefits! By filing you may be eligible for many benefits!
+					<?php the_field('tax_clinic_desc')?>
 					</p>
 				</div>
 			</div>
