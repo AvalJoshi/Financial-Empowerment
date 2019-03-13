@@ -129,6 +129,7 @@ function financial_empowerment_scripts() {
 	wp_enqueue_script( 'foundation-css', get_template_directory_uri() . '/assets/css/vendor/foundation.css', array(), '6.5.1');
 	
 	wp_enqueue_style('app-css', get_template_directory_uri() . '/assets/css/app.css', array(), null);
+    
 
 	wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', array('jquery'), null, true);
 
