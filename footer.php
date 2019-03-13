@@ -21,7 +21,7 @@
 
 <?php
  
-//// Advanced Custom Fields
+//// Advanced Custom Fiels social links
 $twitter_username       = get_field('twitter');
 $instagram_username     = get_field('instagram');
 $facebook_username      = get_field('facebook');
