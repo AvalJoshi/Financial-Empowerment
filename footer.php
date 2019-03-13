@@ -19,5 +19,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
 
+<?php
+ 
+//// Advanced Custom Fields
+$twitter_username       = get_field('twitter');
+$instagram_username     = get_field('instagram');
+$facebook_username      = get_field('facebook');
+
+
+
+?>
+
+
+
 </body>
 </html>
