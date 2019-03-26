@@ -30,7 +30,7 @@ get_header();
 
 ?>
 
-changes masdee
+
 
 
 
@@ -248,7 +248,7 @@ changes masdee
 
         </section>
 
-    <!-- contact section 
+    <!-- contact section -->
 
         <div class="section-sec">
 
