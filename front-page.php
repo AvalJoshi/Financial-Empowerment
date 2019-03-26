@@ -32,7 +32,6 @@ get_header();
 
 
 
-<!-- <<<<<<< HEAD -->
 
     <div id="primary" class="content-area">
 
@@ -56,10 +55,14 @@ get_header();
 
 		<section id="howDoIqualify">
 
+
 		<?php $header_howDoIqualigy =  get_field('home_page_header_text');?>
 
 			<h2><?php echo $header_howDoIqualigy; ?></h2>
 
+
+
+			<h2> <?php get_field('home_page_header_text')?></h2>
 
 
 			<div class="qualifyDetails">
@@ -87,6 +90,7 @@ get_header();
   <div class="tab-content">
 
     <div id="home" class="tab-pane fade in active">
+<<<<<<< Updated upstream
 
 		<?php $h3_iAmeligible =  get_field('h3_eligible');?>
 
@@ -96,9 +100,14 @@ get_header();
 
       <p><?php echo $iAmeligible_desc; ?></p>
 
+=======
+      <h3><?php get_field ( 'h3_eligible')?></h3>
+      <p>	<?php get_field('eligible_desc') ?></p>
+>>>>>>> Stashed changes
     </div>
 
     <div id="menu1" class="tab-pane fade">
+<<<<<<< Updated upstream
 
 		<?php $h3_receipts =  get_field('h3_receipts');?>	
 
@@ -108,9 +117,14 @@ get_header();
 
       <p><?php echo $receipts_desc; ?></p>
 
+=======
+      <h3><?php get_field ( 'h3_receipts')?></h3>
+      <p>	<?php get_field('receipts_desc') ?></p>
+>>>>>>> Stashed changes
     </div>
 
     <div id="menu2" class="tab-pane fade">
+<<<<<<< Updated upstream
 
 		<?php $h3_information_Slips =  get_field('h3_information_Slips');?>
 
@@ -120,6 +134,10 @@ get_header();
 
       <p><?php echo $information_slips_desc; ?></p>
 
+=======
+          <h3><?php get_field ( 'h3_nformation_Slips')?></h3>
+      <p>	<?php get_field('information_slips_desc') ?></p>
+>>>>>>> Stashed changes
     </div>
 
   </div>
@@ -135,12 +153,16 @@ get_header();
 
 
 		<section id="locations">
+<<<<<<< Updated upstream
 
 		<?php $locations_header =  get_field('locations_header');?>
 
 			<h2><?php echo $locations_header; ?></h2>
 
 
+=======
+			<h2>  <?php get_field('locations_header')?></h2>
+>>>>>>> Stashed changes
 
 			<div class="map">
 
@@ -149,11 +171,16 @@ get_header();
 			<div class="mapouter">
 
 				<div class="gmap_canvas">
+<<<<<<< Updated upstream
 
 				<?php $location_area =  get_field('location_area');?>
 
 				<?php echo $location_area; ?>
 
+=======
+				<?php get_field('location_area')?>
+					
+>>>>>>> Stashed changes
 					<a href="https://www.jetzt-drucken-lassen.de"></a>
 
 				</div>
