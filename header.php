@@ -44,151 +44,126 @@
 
 
 
-<body <?php body_class(); ?>>
-
-<div id="page" class="site">
-
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'financial_empowerment' ); ?></a>
 
 
 
+<body class="stretched">
 
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
 
+        <!-- Header
+		============================================= -->
+        <header id="header" class="transparent-header page-section dark">
 
+            <div id="header-wrap">
 
-	<header id="masthead" class="site-header">
+                <div class="container clearfix">
 
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
+                    <!-- Logo
+					============================================= -->
+                    <div id="logo">
 
-<div class="main_nav">
+                        <?php
+function theme_prefix_the_custom_logo() {
+	
+	if ( function_exists( 'the_custom_logo' ) ) {
+		the_custom_logo();
+	}
 
-	<div id="logo_mian">
+}
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+$custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
+echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
+                    </div><!-- #logo end -->
 
-
-
-	<div class="site-branding">
-
-			<?php
-
-			the_custom_logo();
-
-			if ( is_front_page() && is_home() ) :
-
-				?>
-
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
-				<?php
-
-			else :
-
-				?>
-
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-
-				<?php
-
-			endif;
-
-			$financial_empowerment_description = get_bloginfo( 'description', 'display' );
-
-			if ( $financial_empowerment_description || is_customize_preview() ) :
-
-				?>
-
-				<p class="site-description"><?php echo $financial_empowerment_description; /* WPCS: xss ok. */ ?></p>
-
-			<?php endif; ?>
-
-		</div><!-- .site-branding -->
+                    <!-- Primary Navigation
+					============================================= -->
 
 
 
 
 
-	</div>
 
 
+                    <nav id="primary-menu">
 
-	<div id="menu_main">
-
-
-
-	<nav id="site-navigation" class="main-navigation">
-
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'financial_empowerment' ); ?></button>
-
-			<?php
-
+                        <?php
 			wp_nav_menu( array(
-
 				'theme_location' => 'menu-1',
-
 				'menu_id'        => 'primary-menu',
-
+            
 			) );
-
 			?>
+                    </nav><!-- #site-navigation -->
 
-		</nav><!-- #site-navigation -->
+                    <!--<ul class="one-page-menu">
+                          
+							<li class="current"><a href="#" data-href="#header"><div></div></a></li>
+							<li><a href="#" data-href="#hwtoQui"><div></div></a></li>
+							<li><a href="#" data-href="#section-specs"><div>Be a Volunteer!</div></a></li>
+							<li><a href="#" data-href="#fincEmp"><div>Financial Empowerment</div></a></li>
+							<li><a href="#" data-href="#locations-area"><div>Locations</div></a></li>
+				
+                            </ul>-->
 
-	</div>
-
-		
-
-			</div>
-
-
-
-
-
-			
-
-<div id="durham_tax">
+                    <!-- #primary-menu end -->
 
 
+                </div>
 
-<h1>Durham Tax <span>Hub</span></h1>
+            </div>
 
-<p>It's never too late to file your taxes! Tax filing can boost your income, and we can show you how.</p>
+        </header><!-- #header end -->
 
+        <section id="slider" class="slider-element slider-parallax dark full-screen">
 
+            <div class="slider-parallax-inner">
 
-<p>Enter your yearly income below to see if you are eligible for free tax filing</p>
+                <div class="container clearfix">
 
+                    <div class="vertical-middle">
 
+                        <div class="heading-block center nobottomborder">
+                            <h1 data-animate="fadeInUp">Durham Tax <strong>Hub</strong></h1>
 
-
-
-<input type="text" class="textbox" placeholder="Income">
-
-
-
-<button class="button"><span>Am I eligible?</span></button>
-
-
-
-<div class="arrow_main">
-
-<div class="arrow bounce">
-
-<!-- arrow link to go down -->
-
-  <a class="fa fa-chevron-down fa-2x" href="#howDoIqualify"></a>
-
-</div>
+                            <?php $banner_text_main = get_field('banner_text');?>
+                            <span data-animate="fadeInUp" data-delay="300">
+                                <?php echo $banner_text_main;?>
+                            </span>
+                        </div>
 
 
 
 
+                        <div class="subscribe-widget">
+                            <div class="widget-subscribe-form-result"></div>
+                            <form id="widget-subscribe-form2" action="include/subscribe.php" method="post" class="nobottommargin">
+                                <div class="input-group input-group-lg divcenter" style="max-width:600px;">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="icon-email2"></i></div>
+                                    </div>
+                                    <input type="email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Example $30,000">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary" type="submit">Am I Eligible?</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
 
-</div>
+                    </div>
 
-			</div>
+                    <a href="#" data-scrollto="#section-features" class="one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
 
-	</header><!-- #masthead -->
+                </div>
+
+            </div>
+
+        </section>
 
 
 
-	<div id="content" class="site-content">
 
