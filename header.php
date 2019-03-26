@@ -76,11 +76,19 @@
 
 =======
 			 <?php
+<<<<<<< HEAD
 			if (has_custom_logo()){
 			the_custom_logo();
 			}else{
 				echo'No Logo';
 			}
+=======
+			if (has_custom_logo()){
+			the_custom_logo();
+			}else{
+				echo'No Logo';
+			}
+>>>>>>> master
 >>>>>>> Stashed changes
 			the_custom_logo();
 

@@ -34,7 +34,24 @@
 <?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
 </h4>
 
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>
+</h4>
 
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_twitter_url' ); ?>
+</h4>
+
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
+</h4>
+
+
+
+<<<<<<< Updated upstream
+=======
+<?php wp_footer(); ?>
+>>>>>>> Stashed changes
 
 <<<<<<< Updated upstream
 =======
