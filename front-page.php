@@ -32,6 +32,77 @@ get_header();
 
 
 
+<section id="content">
+
+    <div class="content-wrap">
+
+
+
+        <div class="container clearfix">
+
+
+            <div id="hwtoQui" class="heading-block title-center page-section">
+
+
+                <?php $section_one_heading_main = get_field('section_one_heading');?>
+                <h2><?php echo $section_one_heading_main;?></h2>
+
+            </div>
+
+            <div class="col_one_third nobottommargin">
+
+                <div class="heading-block fancy-title nobottomborder title-bottom-border">
+
+                    <?php $header_eligible =  get_field('am_i_eligible');?>
+
+                    <h4><?php echo $header_eligible;?></h4>
+
+                </div>
+                <?php $eligible_desc =  get_field('am_i_eligible_desc');?>
+                <p><?php echo $eligible_desc;?> </p>
+
+                <?php $link_eligible =  get_field('eligible_link');?>
+
+                <p><a class="button" href="<?php echo $eligible_desc;?>" role="button">View details </a></p>
+
+            </div>
+
+            <div class="col_one_third nobottommargin">
+
+                <div class="heading-block fancy-title nobottomborder title-bottom-border">
+                    <?php $header_receipts =  get_field('receipts');?>
+                    <h4><?php echo $header_receipts;?></h4>
+                </div>
+
+                <?php $desc_receipts =  get_field('receipts_desc');?>
+                <p>
+                    <?php echo $desc_receipts;?> </p>
+
+                <?php $link_receipts =  get_field('receipts_link');?>
+                <p><a class="button" href="<?php echo $link_receipts?>" role="button">View details </a></p>
+
+            </div>
+
+            <div class="col_one_third nobottommargin col_last">
+
+                <div class="heading-block fancy-title nobottomborder title-bottom-border">
+                    <?php $header_information_slips =  get_field('information_slips');?>
+                    <h4><?php echo $header_information_slips;?></h4>
+                </div>
+                <?php $information_desc =  get_field('information_slips_desc');?>
+                <p>
+                    <?php echo $information_desc;?> </p>
+
+
+                <?php $link_information =  get_field('information_link');?>
+                <p><a class="button" href="<?php echo $link_information?>" role="button">View details </a></p>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
 
     <div id="primary" class="content-area">
 
