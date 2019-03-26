@@ -435,11 +435,16 @@ get_header();
 =======
 				<div class="volunteerVideo">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 				<?php $video_volunteer =  get_field('video');?>
 
 				<?php echo $video_volunteer; ?>	
 
+=======
+				<?php $video_volunteer =  get_field('video');?>
+				<?php echo $video_volunteer; ?>	
+>>>>>>> Stashed changes
 =======
 				<?php $video_volunteer =  get_field('video');?>
 				<?php echo $video_volunteer; ?>	

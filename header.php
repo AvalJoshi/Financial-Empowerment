@@ -71,6 +71,7 @@
 
 	<div class="site-branding">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 			<?php
 
@@ -84,6 +85,14 @@
 			}
 =======
 			if (has_custom_logo()){
+=======
+			 <?php
+			// if (has_custom_logo()){
+			// the_custom_logo();
+			// }else{
+			// 	echo'No Logo';
+			// }
+>>>>>>> Stashed changes
 			the_custom_logo();
 			}else{
 				echo'No Logo';

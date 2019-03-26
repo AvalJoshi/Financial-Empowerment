@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <?php 
 if ( ! function_exists( 'finanicial_empowerment_setup' ) ) :
@@ -83,6 +84,8 @@ add_action( 'after_setup_theme', 'finanicial_empowerment_setup' );
  *
  * Priority 0 to make it available to lower priority callbacks.
 =======
+=======
+>>>>>>> Stashed changes
 <?php
 /*
  * Add postMessage support for site title and description for the Theme Customizer.
@@ -315,6 +318,7 @@ function financial_empowerment_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'financial_empowerment_content_width', 640 );
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 add_action( 'after_setup_theme', 'financial_empowerment_content_width', 0 );
 ​
 // /**
@@ -334,5 +338,7 @@ function financial_empowerment_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'financial_empowerment_widgets_init' );
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
