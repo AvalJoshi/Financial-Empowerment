@@ -56,7 +56,7 @@
 </h4>
 
 
-
+<!--adding the logos inside the footer  -->
 <h4>
 
 <?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
