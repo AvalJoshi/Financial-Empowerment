@@ -77,42 +77,19 @@
 							<a href="#">How To Qualify</a>/<a href="#">Be a Volunteer!</a>/<a href="#"></a>/<a href="#">Financial Empowerment</a>/<a href="#">Locations</a>
 						</div>-->
                 <div class="fright clearfix">
-                    <a href="<?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>" class="social-icon si-small si-borderless nobottommargin si-facebook">
+                    <a href="<?php  get_theme_mod( 'financial_empowerment_facebook_url' ); ?>" class="social-icon si-small si-borderless nobottommargin si-facebook">
                         <i class="icon-facebook"></i>
                         <i class="icon-facebook"></i>
                     </a>
 
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+                    <a href="<?php  get_theme_mod( 'financial_empowerment_facebook_url' ); ?>" class="social-icon si-small si-borderless nobottommargin si-twitter">
                         <i class="icon-twitter"></i>
                         <i class="icon-twitter"></i>
                     </a>
 
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
-                        <i class="icon-gplus"></i>
-                        <i class="icon-gplus"></i>
-                    </a>
+                   
 
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-pinterest">
-                        <i class="icon-pinterest"></i>
-                        <i class="icon-pinterest"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-vimeo">
-                        <i class="icon-vimeo"></i>
-                        <i class="icon-vimeo"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-github">
-                        <i class="icon-github"></i>
-                        <i class="icon-github"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-yahoo">
-                        <i class="icon-yahoo"></i>
-                        <i class="icon-yahoo"></i>
-                    </a>
-
-                    <a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+                    <a href="<?php  get_theme_mod( 'financial_empowerment_facebook_url' ); ?>" class="social-icon si-small si-borderless nobottommargin si-linkedin">
                         <i class="icon-linkedin"></i>
                         <i class="icon-linkedin"></i>
                     </a>
