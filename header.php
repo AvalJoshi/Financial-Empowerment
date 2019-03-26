@@ -45,6 +45,59 @@
 
 
 
+<<<<<<< Updated upstream
+=======
+<body <?php body_class(); ?>>
+
+<div id="page" class="site">
+
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'financial_empowerment' ); ?></a>
+
+
+
+
+
+
+
+	<header id="masthead" class="site-header">
+
+
+
+<div class="main_nav">
+
+	<div id="logo_mian">
+
+
+
+	<div class="site-branding">
+<<<<<<< Updated upstream
+
+			<?php
+
+=======
+			 <?php
+			// if (has_custom_logo()){
+			// the_custom_logo();
+			// }else{
+			// 	echo'No Logo';
+			// }
+>>>>>>> Stashed changes
+			the_custom_logo();
+
+			if ( is_front_page() && is_home() ) :
+
+				?>
+
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+
+				<?php
+
+			else :
+
+				?>
+
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+>>>>>>> Stashed changes
 
 
 
