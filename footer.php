@@ -21,7 +21,7 @@
 
 
 ?>
-
+<!--  facebook -->
 <h4>
 <?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>
 </h4>
