@@ -178,7 +178,7 @@ font-size: 20px;
 
 
 
-body { background: @bg;}
+body 
 a { color: white; text-decoration: none; }
 
 .arrow {
@@ -424,7 +424,7 @@ border-radius: 0px!important;
 
 #beAvolunteer .beVolunteer .volunteerVideo {
     width: 26%;
-    height: 329px;
+    height: auto;
     float: left;
     margin-left: 50px;
     margin-top: 65px;
