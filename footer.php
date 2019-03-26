@@ -25,7 +25,7 @@
 <h4>
 <?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>
 </h4>
-
+<!-- twitter -->
 <h4>
 <?php echo get_theme_mod( 'financial_empowerment_twitter_url' ); ?>
 </h4>
