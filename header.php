@@ -45,6 +45,67 @@
 
 
 
+<<<<<<< Updated upstream
+=======
+<body <?php body_class(); ?>>
+
+<div id="page" class="site">
+
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'financial_empowerment' ); ?></a>
+
+
+
+
+
+
+
+	<header id="masthead" class="site-header">
+
+
+
+<div class="main_nav">
+
+	<div id="logo_mian">
+
+
+
+	<div class="site-branding">
+<<<<<<< Updated upstream
+
+			<?php
+
+=======
+			 <?php
+<<<<<<< HEAD
+			if (has_custom_logo()){
+			the_custom_logo();
+			}else{
+				echo'No Logo';
+			}
+=======
+			if (has_custom_logo()){
+			the_custom_logo();
+			}else{
+				echo'No Logo';
+			}
+>>>>>>> master
+>>>>>>> Stashed changes
+			the_custom_logo();
+
+			if ( is_front_page() && is_home() ) :
+
+				?>
+
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+
+				<?php
+
+			else :
+
+				?>
+
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+>>>>>>> Stashed changes
 
 
 
@@ -101,15 +162,7 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
 			?>
                     </nav><!-- #site-navigation -->
 
-                    <!--<ul class="one-page-menu">
-                          
-							<li class="current"><a href="#" data-href="#header"><div></div></a></li>
-							<li><a href="#" data-href="#hwtoQui"><div></div></a></li>
-							<li><a href="#" data-href="#section-specs"><div>Be a Volunteer!</div></a></li>
-							<li><a href="#" data-href="#fincEmp"><div>Financial Empowerment</div></a></li>
-							<li><a href="#" data-href="#locations-area"><div>Locations</div></a></li>
-				
-                            </ul>-->
+                
 
                     <!-- #primary-menu end -->
 
