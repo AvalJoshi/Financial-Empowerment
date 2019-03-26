@@ -16,11 +16,18 @@ get_header();
 ?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 
 
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
 >>>>>>> master
 <section id="content">
 

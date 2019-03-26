@@ -20,6 +20,63 @@
 </h4>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
+</h4>
+
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>
+</h4>
+
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_twitter_url' ); ?>
+</h4>
+
+<h4>
+<?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
+</h4>
+
+
+
+<<<<<<< Updated upstream
+=======
+<?php wp_footer(); ?>
+>>>>>>> Stashed changes
+
+<<<<<<< Updated upstream
+=======
+<?php wp_footer(); ?>
+>>>>>>> Stashed changes
+
+<h4>
+
+<?php echo get_theme_mod( 'financial_empowerment_facebook_url' ); ?>
+
+</h4>
+
+
+
+<h4>
+
+<?php echo get_theme_mod( 'financial_empowerment_twitter_url' ); ?>
+
+</h4>
+
+
+<!--adding the logos inside the footer  -->
+<h4>
+
+<?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
+
+</h4>
+
+
+
+
+=======
+>>>>>>> master
 <div class="container clearfix">
 
     <div id="oc-clients" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="30" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6" style="padding: 20px 0;">
@@ -163,6 +220,7 @@
 <!-- Go To Top
 	============================================= -->
 <div id="gotoTop" class="icon-angle-up"></div>
+<<<<<<< HEAD
 =======
 <h4>
 <?php echo get_theme_mod( 'financial_empowerment_instagram_url' ); ?>
@@ -217,6 +275,8 @@
 
 
 
+=======
+>>>>>>> master
 >>>>>>> master
 
 
