@@ -162,15 +162,7 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
 			?>
                     </nav><!-- #site-navigation -->
 
-                    <!--<ul class="one-page-menu">
-                          
-							<li class="current"><a href="#" data-href="#header"><div></div></a></li>
-							<li><a href="#" data-href="#hwtoQui"><div></div></a></li>
-							<li><a href="#" data-href="#section-specs"><div>Be a Volunteer!</div></a></li>
-							<li><a href="#" data-href="#fincEmp"><div>Financial Empowerment</div></a></li>
-							<li><a href="#" data-href="#locations-area"><div>Locations</div></a></li>
-				
-                            </ul>-->
+                
 
                     <!-- #primary-menu end -->
 
