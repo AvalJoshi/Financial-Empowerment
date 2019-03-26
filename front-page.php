@@ -175,7 +175,7 @@ get_header();
                     </div>
                 </div>
 
-
+<!-- addignt the custom fields s-->
 
 
                 <div class="col-lg-4 dark col-padding ohidden space_padding_right" style="background-color: #e74c3c;">
@@ -235,7 +235,7 @@ get_header();
                         <!-- Contact Form
 								============================================= -->
                         <div class="form-widget">
-
+                    <!--widgets over here -->
                             <div class="form-result"></div>
 
                             <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
