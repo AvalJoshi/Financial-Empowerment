@@ -34,9 +34,10 @@
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
 
-
+ <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
 
 	<?php wp_head(); ?>
 
@@ -137,8 +138,6 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                         </div>
 
 
-
-
                         <div class="subscribe-widget">
                             <div class="widget-subscribe-form-result"></div>
                             <form id="widget-subscribe-form2" action="include/subscribe.php" method="post" class="nobottommargin">
@@ -148,7 +147,7 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                                     </div>
                                     <input type="email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Example $30,000">
                                     <div class="input-group-append">
-                                        <button class="btn btn-secondary" type="submit">Am I Eligible?</button>
+                                        <button class="btn btn-secondary" type="submit">Am I Eligible</button>
                                     </div>
                                 </div>
                             </form>
