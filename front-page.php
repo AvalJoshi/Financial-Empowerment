@@ -248,7 +248,7 @@ changes masdee
 
         </section>
 
-
+    <!-- contact section 
 
         <div class="section-sec">
 
