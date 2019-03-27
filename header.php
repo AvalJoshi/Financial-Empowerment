@@ -1,120 +1,30 @@
 <?php
-
 /**
-
  * The header for our theme
-
  *
-
  * This is the template that displays all of the <head> section and everything up until <div id="content">
-
  *
-
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
-
  *
-
- * @package financial_empowerment
-
+ * @package financial_improvement
  */
 
-
-
 ?>
-
 <!doctype html>
-
 <html <?php language_attributes(); ?>>
 
 <head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	
-
- <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
 
-	<?php wp_head(); ?>
-
+    <?php wp_head(); ?>
 </head>
 
 
 
-<<<<<<< Updated upstream
-=======
-<body <?php body_class(); ?>>
-
-<div id="page" class="site">
-
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'financial_empowerment' ); ?></a>
-
-
-
-
-
-
-
-	<header id="masthead" class="site-header">
-
-
-
-<div class="main_nav">
-
-	<div id="logo_mian">
-
-
-
-	<div class="site-branding">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-			<?php
-
-=======
-			 <?php
-<<<<<<< HEAD
-			if (has_custom_logo()){
-			the_custom_logo();
-			}else{
-				echo'No Logo';
-			}
-=======
-			if (has_custom_logo()){
-=======
-			 <?php
-			// if (has_custom_logo()){
-			// the_custom_logo();
-			// }else{
-			// 	echo'No Logo';
-			// }
->>>>>>> Stashed changes
-			the_custom_logo();
-			}else{
-				echo'No Logo';
-			}
->>>>>>> master
->>>>>>> Stashed changes
-			the_custom_logo();
-
-			if ( is_front_page() && is_home() ) :
-
-				?>
-
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
-				<?php
-
-			else :
-
-				?>
-
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
->>>>>>> Stashed changes
 
 
 
@@ -139,6 +49,7 @@
                     <div id="logo">
 
                         <?php
+                        //custom logo 
 function theme_prefix_the_custom_logo() {
 	
 	if ( function_exists( 'the_custom_logo' ) ) {
@@ -171,9 +82,8 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
 			?>
                     </nav><!-- #site-navigation -->
 
-                
-
-                    <!-- #primary-menu end -->
+                    
+                  
 
 
                 </div>
@@ -193,11 +103,15 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                         <div class="heading-block center nobottomborder">
                             <h1 data-animate="fadeInUp">Durham Tax <strong>Hub</strong></h1>
 
-                            <?php $banner_text_main = get_field('banner_text');?>
+                            <?php $banner_text_main = get_field('banner_text');
+                            //banner test description
+                            ?>
                             <span data-animate="fadeInUp" data-delay="300">
                                 <?php echo $banner_text_main;?>
                             </span>
                         </div>
+
+
 
 
                         <div class="subscribe-widget">
@@ -207,9 +121,21 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                                     <div class="input-group-prepend">
                                         <div class="input-group-text"><i class="icon-email2"></i></div>
                                     </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
                                     <input type="email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Example $30,000">
                                     <div class="input-group-append">
-                                        <button class="btn btn-secondary" type="submit">Am I Eligible</button>
+                                        <button class="btn btn-secondary" type="submit">Am I Eligible?</button>
                                     </div>
                                 </div>
                             </form>
@@ -225,6 +151,5 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
 
         </section>
 
-
-
-
+        <!-- Content
+		============================================= -->
