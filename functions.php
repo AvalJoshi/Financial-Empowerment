@@ -7,11 +7,6 @@
  * @package financial_improvement
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
 if ( ! function_exists( 'financial_improvement_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -121,11 +116,6 @@ function financial_improvement_widgets_init() {
 }
 add_action( 'widgets_init', 'financial_improvement_widgets_init' );
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
->>>>>>> master
 /**
  * Enqueue scripts and styles.
  */
@@ -188,11 +178,6 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/setup.php';
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/setup.php';
-
 /**
  * Load Jetpack compatibility file.
  */
