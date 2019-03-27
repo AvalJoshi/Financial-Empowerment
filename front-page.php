@@ -15,20 +15,6 @@
 get_header();
 ?>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
-
-
-
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
->>>>>>> master
 <section id="content">
 
     <div class="content-wrap">
@@ -182,7 +168,7 @@ get_header();
                     </div>
                 </div>
 
-<!-- addignt the custom fields s-->
+
 
 
                 <div class="col-lg-4 dark col-padding ohidden space_padding_right" style="background-color: #e74c3c;">
@@ -216,12 +202,7 @@ get_header();
 
 
         <div id="locations-area" class="heading-block title-center page-section">
-            
-            <?php $loop = new WP_Query( array( 'post_type' => 'wpll_locations', 'posts_per_page' => 1 ) ); ?>                        
-
-                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                           
-            <h2><?php the_title();?></h2>
+            <h2>Locations</h2>
 
         </div>
 
@@ -242,7 +223,7 @@ get_header();
                         <!-- Contact Form
 								============================================= -->
                         <div class="form-widget">
-                    <!--widgets over here -->
+
                             <div class="form-result"></div>
 
                             <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
@@ -291,36 +272,16 @@ get_header();
             <!-- Google Map
 					============================================= -->
             <section id="google-map" class="gmap full-screen">
-                 
-                            <?php if(has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-                            <?php the_content();?>
-                        <?php endwhile; ?>
-
-                <?php wp_reset_query(); ?> 
-              <div class="container">
-
-    <div class="row">
-
-        <div class="col-md-9">
-            <div class="panel panel-default text-center">
                 
+              
                 
-                
-                
-                
-                
-            </div>
-        </div>
-
-    </div>
-
-</div>
-                         
+                <iframe width="1225" height="599" id="gmap_canvas" src="https://maps.google.com/maps?q=durham%20college&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
             </section>
 
         </section>
 
-    <!-- contact section -->
+
 
         <div class="section-sec">
 
@@ -456,196 +417,6 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 
-<<<<<<< Updated upstream
-=======
-				<div class="volunteerVideo">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-				<?php $video_volunteer =  get_field('video');?>
-
-				<?php echo $video_volunteer; ?>	
-
-=======
-				<?php $video_volunteer =  get_field('video');?>
-				<?php echo $video_volunteer; ?>	
->>>>>>> Stashed changes
-=======
-				<?php $video_volunteer =  get_field('video');?>
-				<?php echo $video_volunteer; ?>	
->>>>>>> Stashed changes
-				
-
-				</div>
-
-
-
-				<div class="howTorunTaxClinic">
-
-				<?php $right_tax_clinic =  get_field('h3_tax_clinic');?>
-
-					<h3><?php echo $right_tax_clinic; ?></h3>
-
-
-
-					<?php $right_tax_clinic_desc =  get_field('tax_clinic_desc');?>	
-
-					<p>
-
-					<?php echo $right_tax_clinic_desc; ?>
-
-					</p>
-
-				</div>
-
-			</div>
-
-		</section>
-
-
-
-		<section id="financialEmpowerment">
-
-			<h2> Financial Empowerment </h2>
-
-
-
-			
-
-
-
-			<div class="financialEmpowermentDetails">
-
-
-
-				<h3>
-
-<!-- >>>>>>> master
-
-					Overview -->
-
-				</h3>
-
-
-
-				<p>
-
-					Financial empowerment is an approach to poverty reduction that focuses
-
-					troducing a set of interventions that together help low-income Canadians to
-
-					grow their incomes, improve their credit scores, savings and debt levels, and
-
-					build wealth through education, employment, entrepreneurship and im
-
-					proved housing.
-
-				</p>
-
-				
-
-				<p>
-
-
-
-					Financial empowerment isn’t like most other poverty reduction approaches.
-
-					It focuses on helping low-income people participate and feel included in
-
-					fosters behaviours that are critical to their economic security and their abili
-
-					ty to invest in their future.
-
-				</p>
-
-
-
-
-
-
-
-			</div>
-
-
-
-		</section>
-
-
-
-		<section id="testimonials" >
-
-			<h2> Testimonials </h2>
-
-			<div class="testimonialsDetails"></div>	
-
-		</section>
-
-
-
-		<section id="contact-us">
-
-				<h2>Contact Us </h2>
-
-
-
-				<div class="contactUs">
-
-				<?php $contact_us =  get_field('contact_us');?>
-
-				<?php echo $contact_us; ?>
-
-				</div>
-
-		</section>
-
-
-
-		</main>
-
-	</div>
-
-	<div id="primary" class="content-area">
-
-		<main id="main" class="site-main">
-
-
-
-<h1></h1>
-
-		<?php
-
-		while ( have_posts() ) :
-
-			the_post();
-
-
-
-			get_template_part( 'template-parts/content', 'page' );
-
-
-
-			// If comments are open or we have at least one comment, load up the comment template.
-
-			if ( comments_open() || get_comments_number() ) :
-
-				comments_template();
-
-			endif;
-
-
-
-		endwhile; // End of the loop.
-
-		?>
-
-
-
-		</main><!-- #main -->
-
-	</div><!-- #primary -->
-
-
->>>>>>> Stashed changes
 
 
         <?php
