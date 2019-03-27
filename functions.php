@@ -143,15 +143,6 @@ function financial_improvement_scripts() {
 
     wp_enqueue_script( 'financial_improvement-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
     
-    
-    
-    
-    
-    
-    
-    
-    
-
 	wp_enqueue_script( 'financial_improvement-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -197,10 +188,6 @@ function theme_prefix_setup() {
 	) );
 
 }
-
-
-
-
 
    function create_posttype() {
   register_post_type( 'wpll_locations',
