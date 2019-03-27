@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'financial_improvement_widgets_init' );
 function financial_improvement_scripts() {
 	wp_enqueue_style( 'financial_improvement-style', get_stylesheet_uri() );
   
+
+  // adding the wp query for the custom posts
     wp_enqueue_style('dark-css', get_template_directory_uri() . '/assets/css/dark.css', array(), null);
     wp_enqueue_style('font-icons-css', get_template_directory_uri() . '/assets/css/font-icons.css', array(), null);
     wp_enqueue_style('magnific-popup-css', get_template_directory_uri() . '/assets/css/magnific-popup.css', array(), null);
