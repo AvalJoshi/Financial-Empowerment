@@ -23,11 +23,6 @@
     <?php wp_head(); ?>
 </head>
 
-
-
-
-
-
 <body class="stretched">
 
     <!-- Document Wrapper
@@ -65,12 +60,6 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                     <!-- Primary Navigation
 					============================================= -->
 
-
-
-
-
-
-
                     <nav id="primary-menu">
 
                         <?php
@@ -81,10 +70,6 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
 			) );
 			?>
                     </nav><!-- #site-navigation -->
-
-                    
-                  
-
 
                 </div>
 
@@ -121,18 +106,7 @@ echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';?>
                                     <div class="input-group-prepend">
                                         <div class="input-group-text"><i class="icon-email2"></i></div>
                                     </div>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
+                                          
                                     <input type="email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Example $30,000">
                                     <div class="input-group-append">
                                         <button class="btn btn-secondary" type="submit">Am I Eligible?</button>
