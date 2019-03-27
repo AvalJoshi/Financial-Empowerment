@@ -7,7 +7,23 @@ body{
 
     background-color: #efefef;
     overflow-x: hidden; 
+    line-height: 1.5;
 }
+
+
+a:hover { color: #222; }
+
+a img { border: none; }
+
+img { max-width: 100%; }
+
+iframe { border: none !important; }
+
+
+/* ----------------------------------------------------------------
+	Basic Layout Styles
+-----------------------------------------------------------------*/
+
 #masthead {
     background-image: url(../img/home.jpg);
     height: 780px;
